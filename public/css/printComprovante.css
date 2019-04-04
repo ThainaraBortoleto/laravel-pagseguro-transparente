@@ -1,0 +1,43 @@
+@import "bootstrap.css";
+@media print {
+
+	table { /* Or specify a table class */
+		max-height: 100%;
+		overflow: hidden;
+		page-break-after: always;
+	}
+	[class*="col-md-"] {
+		float: left;
+	}
+
+}
+.cart-product-imitation {
+	text-align: center;
+	padding-top: 30px;
+	height: 80px;
+	width: 80px;
+	background-color: #f8f8f9;
+}
+
+.form-control{
+	border-radius: 4px !important;
+}
+.btn-amber{
+	border: 2px solid  #007a1d !important;
+	background-color: #03224e !important;
+	color: #ffffff !important;
+}
+.inscrito{
+	position: relative;
+	top: 10px;
+}
+
+.txtHorario{
+	color: #03224e !important;
+}
+.txtCampo{
+	color: #007a1d;
+}
+.txtStatus{
+	color: #ff0900;
+}

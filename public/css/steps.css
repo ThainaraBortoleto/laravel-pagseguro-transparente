@@ -1,0 +1,62 @@
+.steps-form-2 {
+    display: table;
+    width: 100%;
+    position: relative
+}
+
+.steps-form-2 .steps-row-2 {
+    display: table-row
+}
+
+.progress.md-progress.col-md-12{
+    position: relative;
+    top: 34px;
+}
+
+/*.steps-form-2 .steps-row-1:before {*/
+/*top: 34px;*/
+/*bottom: 0;*/
+/*position: absolute;*/
+/*content: " ";*/
+/*width: 30%;*/
+/*height: 2px;*/
+/*background-color: #01c250;*/
+/*}*/
+
+.steps-form-2 .steps-row-2 .steps-step-2 {
+    display: table-cell;
+    text-align: center;
+    position: relative;
+    background: white;
+}
+
+.steps-form-2 .steps-row-2 .steps-step-2 p {
+    margin-top: .5rem
+}
+
+.steps-form-2 .steps-row-2 .steps-step-2 button[disabled] {
+    opacity: 1!important;
+    filter: alpha(opacity=100)!important
+}
+
+.steps-form-2 .steps-row-2 .steps-step-2 .btn-circle-2 {
+    width: 70px;
+    height: 70px;
+    border: 2px solid #007a1d;
+    background-color: white;
+    color: #007a1d;
+    border-radius: 50%;
+    padding: 22px 18px 15px 18px;
+    margin-top: -22px;
+    box-shadow: 3px 3px 2px #21a700
+}
+
+.steps-form-2 .steps-row-2 .steps-step-2 .btn-circle-2:hover {
+    border: 2px solid #4285F4;
+    color: #4285F4!important;
+    background-color: white!important
+}
+
+.steps-form-2 .steps-row-2 .steps-step-2 .btn-circle-2 .fa {
+    font-size: 1.7rem
+}
